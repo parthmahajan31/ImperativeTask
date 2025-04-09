@@ -1,4 +1,4 @@
-package com.imperative.task;
+package com.imperative.task.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -12,6 +12,7 @@ import androidx.room.Room;
 import androidx.security.crypto.EncryptedSharedPreferences;
 import androidx.security.crypto.MasterKeys;
 
+import com.imperative.task.R;
 import com.imperative.task.biometric.BiometricHelper;
 import com.imperative.task.data.request.LoginRequest;
 import com.imperative.task.data.response.LoginResponse;

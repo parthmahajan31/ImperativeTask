@@ -7,7 +7,7 @@ import androidx.biometric.BiometricManager;
 import androidx.biometric.BiometricPrompt;
 import androidx.core.content.ContextCompat;
 
-import com.imperative.task.MainActivity;
+import com.imperative.task.activity.MainActivity;
 
 public class BiometricHelper {
     private Context context;

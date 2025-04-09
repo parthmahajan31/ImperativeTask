@@ -1,4 +1,4 @@
-package com.imperative.task;
+package com.imperative.task.activity;
 
 import android.content.Context;
 import android.content.Intent;
@@ -7,7 +7,6 @@ import android.net.NetworkInfo;
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.Button;
-import android.widget.ListView;
 import android.widget.SearchView;
 import android.widget.Toast;
 
@@ -17,6 +16,7 @@ import androidx.room.Room;
 import androidx.security.crypto.EncryptedSharedPreferences;
 import androidx.security.crypto.MasterKeys;
 
+import com.imperative.task.R;
 import com.imperative.task.adapter.TransactionAdapter;
 import com.imperative.task.data.response.Transaction;
 import com.imperative.task.retrofit.ApiService;
